@@ -1,0 +1,103 @@
+.header{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.btn{
+	margin-bottom: 15px;
+}
+
+.form-group input{
+	margin-bottom: 10px;
+	width: 40%;
+}
+
+
+.form-group textarea{
+	width: 40%;
+	height: 100px;
+}
+
+.main-page{
+	margin-top: 20px;
+	flex: left;
+	position: relative;
+}
+
+.input-page{
+	margin-top: 20px;
+	display: flex;
+	position: relative;
+	float: right;
+}
+
+.table tr th:nth-child(1){
+	width: 27.2%;
+}
+
+.table tr th:nth-child(2){
+	width: 26%;
+}
+
+.table tr th:nth-child(3){
+	width: 23%;
+}
+
+.table-fixed{
+	table-layout: fixed;
+}
+
+.table td{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.table tr td:nth-child(1){
+	width: 26%;
+}
+
+.table tr td:nth-child(2){
+	width: 25%;
+}
+
+.table tr td:nth-child(3){
+	width: 22%;
+}
+
+.table tr td:nth-child(4){
+	width: 13%;
+}
+
+.table tr td:nth-child(5){
+	width: 10%;
+}
+
+.table-bordered h5{
+	font-weight: 600;
+}
+
+.login{
+	margin-top: 10%;
+}
+
+.carousel-item{
+	padding-top: -50px;
+	max-height: 200px;
+}
+
+.navbar{
+	background-color: rgb(0, 162, 255);
+}
+
+.details-list{
+	margin-top: 3%;
+}
+
+.card{
+	width: 101%;
+	max-width: 100ch;
+	float: right;
+	text-align: justify;
+}
